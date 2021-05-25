@@ -1,4 +1,7 @@
 {
+    "arkschools/systems-data-cacher": {
+        "version": "1.0.x-dev"
+    },
     "doctrine/doctrine-bundle": {
         "version": "2.3",
         "recipe": {
@@ -34,8 +37,38 @@
     "doctrine/sql-formatter": {
         "version": "1.1.1"
     },
+    "firebase/php-jwt": {
+        "version": "v5.2.1"
+    },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
+    },
+    "google/apiclient": {
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.0",
+            "ref": "49c5d7a66d863d28513979bf0666dc77599100c0"
+        },
+        "files": [
+            "config/packages/google_apiclient.yaml"
+        ]
+    },
+    "google/apiclient-services": {
+        "version": "v0.176.0"
+    },
+    "google/auth": {
+        "version": "v1.15.1"
+    },
+    "guzzlehttp/guzzle": {
+        "version": "6.5.5"
+    },
+    "guzzlehttp/promises": {
+        "version": "1.4.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "1.8.2"
     },
     "jd/csv-objects": {
         "version": "dev-master"
@@ -49,11 +82,23 @@
     "laminas/laminas-zendframework-bridge": {
         "version": "1.2.0"
     },
+    "league/oauth2-client": {
+        "version": "2.2.1"
+    },
+    "microsoft/microsoft-graph": {
+        "version": "1.0.3"
+    },
     "monolog/monolog": {
         "version": "1.26.0"
     },
+    "paragonie/constant_time_encoding": {
+        "version": "v2.4.0"
+    },
     "php": {
         "version": "7.4"
+    },
+    "phpseclib/phpseclib": {
+        "version": "3.0.8"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -61,8 +106,14 @@
     "psr/container": {
         "version": "1.1.1"
     },
+    "psr/http-message": {
+        "version": "1.0.1"
+    },
     "psr/log": {
         "version": "1.1.4"
+    },
+    "ralouphie/getallheaders": {
+        "version": "3.0.3"
     },
     "symfony/cache": {
         "version": "v4.4.24"
