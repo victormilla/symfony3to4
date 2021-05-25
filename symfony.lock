@@ -1,4 +1,7 @@
 {
+    "arkschools/random": {
+        "version": "0.1.x-dev"
+    },
     "arkschools/systems-data-cacher": {
         "version": "1.0.x-dev"
     },

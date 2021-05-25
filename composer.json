@@ -10,6 +10,10 @@
     },
     {
       "type": "path",
+      "url": "../ark/src/Random"
+    },
+    {
+      "type": "path",
       "url": "../csvJose/csv-objects"
     }
   ],
@@ -17,6 +21,7 @@
     "php": ">=7.1.3",
     "ext-ctype": "*",
     "ext-iconv": "*",
+    "arkschools/random": "dev-master",
     "arkschools/systems-data-cacher": "dev-master",
     "composer/package-versions-deprecated": "1.11.99.2",
     "doctrine/doctrine-bundle": "^2.3",

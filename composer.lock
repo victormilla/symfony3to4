@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "084e23ed0bb527b926b4d135151eb67f",
+    "content-hash": "96ef61ecdea5580a80f08e896ad7b144",
     "packages": [
+        {
+            "name": "arkschools/random",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../ark/src/Random",
+                "reference": "c28ca9aa258e7fba76e65f610d418a4a56d07ef3"
+            },
+            "require": {
+                "php": ">=5.3.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Random\\": "./"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Jose Diaz",
+                    "email": "jose.diaz@arkonline.org"
+                }
+            ],
+            "description": "Library to generate random data",
+            "homepage": "https://github.com/arkschools/random",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "arkschools/systems-data-cacher",
             "version": "dev-master",
@@ -5390,6 +5427,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "arkschools/random": 20,
         "arkschools/systems-data-cacher": 20,
         "jd/csv-objects": 20
     },
