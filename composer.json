@@ -27,6 +27,7 @@
     "ext-iconv": "*",
     "arkschools/random": "dev-master",
     "arkschools/systems-data-cacher": "dev-master",
+    "arkschools/data-input-sheets": "dev-master",
     "composer/package-versions-deprecated": "1.11.99.2",
     "doctrine/doctrine-bundle": "^2.3",
     "doctrine/doctrine-migrations-bundle": "^3.1",

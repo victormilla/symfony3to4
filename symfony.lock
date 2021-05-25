@@ -1,9 +1,42 @@
 {
+    "arkschools/data-input-sheets": {
+        "version": "1.0.x-dev"
+    },
     "arkschools/random": {
         "version": "0.1.x-dev"
     },
     "arkschools/systems-data-cacher": {
         "version": "1.0.x-dev"
+    },
+    "composer/package-versions-deprecated": {
+        "version": "1.11.99.2"
+    },
+    "doctrine/annotations": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "a2759dd6123694c8d901d0ec80006e044c2e6457"
+        },
+        "files": [
+            "config/routes/annotations.yaml"
+        ]
+    },
+    "doctrine/cache": {
+        "version": "1.11.3"
+    },
+    "doctrine/collections": {
+        "version": "1.6.7"
+    },
+    "doctrine/common": {
+        "version": "3.1.2"
+    },
+    "doctrine/dbal": {
+        "version": "2.13.1"
+    },
+    "doctrine/deprecations": {
+        "version": "v0.5.3"
     },
     "doctrine/doctrine-bundle": {
         "version": "2.3",
@@ -34,8 +67,26 @@
             "migrations/.gitignore"
         ]
     },
+    "doctrine/event-manager": {
+        "version": "1.1.1"
+    },
+    "doctrine/inflector": {
+        "version": "2.0.3"
+    },
+    "doctrine/instantiator": {
+        "version": "1.4.0"
+    },
+    "doctrine/lexer": {
+        "version": "1.2.1"
+    },
     "doctrine/migrations": {
         "version": "3.1.2"
+    },
+    "doctrine/orm": {
+        "version": "2.9.1"
+    },
+    "doctrine/persistence": {
+        "version": "2.2.1"
     },
     "doctrine/sql-formatter": {
         "version": "1.1.1"
@@ -75,6 +126,9 @@
     },
     "jd/csv-objects": {
         "version": "dev-master"
+    },
+    "keyvanakbary/slugifier": {
+        "version": "v4.0.0"
     },
     "laminas/laminas-code": {
         "version": "4.3.0"
@@ -209,6 +263,9 @@
     "symfony/http-kernel": {
         "version": "v4.4.24"
     },
+    "symfony/inflector": {
+        "version": "v4.4.23"
+    },
     "symfony/mime": {
         "version": "v4.4.24"
     },
@@ -230,8 +287,8 @@
             "config/packages/test/monolog.yaml"
         ]
     },
-    "symfony/orm-pack": {
-        "version": "v2.1.0"
+    "symfony/options-resolver": {
+        "version": "v4.4.20"
     },
     "symfony/polyfill-intl-idn": {
         "version": "v1.22.1"
@@ -254,6 +311,9 @@
     "symfony/process": {
         "version": "v4.4.22"
     },
+    "symfony/property-access": {
+        "version": "v4.4.20"
+    },
     "symfony/proxy-manager-bridge": {
         "version": "v4.4.24"
     },
@@ -270,6 +330,9 @@
             "config/packages/routing.yaml",
             "config/routes.yaml"
         ]
+    },
+    "symfony/security": {
+        "version": "v4.4.24"
     },
     "symfony/service-contracts": {
         "version": "v2.4.0"
