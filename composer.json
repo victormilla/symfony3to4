@@ -10,6 +10,10 @@
     },
     {
       "type": "path",
+      "url": "../ark/src/DataInputSheets"
+    },
+    {
+      "type": "path",
       "url": "../ark/src/Random"
     },
     {
@@ -18,7 +22,7 @@
     }
   ],
   "require": {
-    "php": ">=7.1.3",
+    "php": "^7.4",
     "ext-ctype": "*",
     "ext-iconv": "*",
     "arkschools/random": "dev-master",
