@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96ef61ecdea5580a80f08e896ad7b144",
+    "content-hash": "a207d7e110647bcdf69ee07a2a2122a6",
     "packages": [
         {
             "name": "arkschools/random",
