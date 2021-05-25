@@ -1,6 +1,56 @@
 {
+    "doctrine/doctrine-bundle": {
+        "version": "2.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.3",
+            "ref": "c9e656a395646ea4fad2bd3e2b3816028baf9026"
+        },
+        "files": [
+            "config/packages/doctrine.yaml",
+            "config/packages/prod/doctrine.yaml",
+            "config/packages/test/doctrine.yaml",
+            "src/Entity/.gitignore",
+            "src/Repository/.gitignore"
+        ]
+    },
+    "doctrine/doctrine-migrations-bundle": {
+        "version": "3.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.1",
+            "ref": "ee609429c9ee23e22d6fa5728211768f51ed2818"
+        },
+        "files": [
+            "config/packages/doctrine_migrations.yaml",
+            "migrations/.gitignore"
+        ]
+    },
+    "doctrine/migrations": {
+        "version": "3.1.2"
+    },
+    "doctrine/sql-formatter": {
+        "version": "1.1.1"
+    },
+    "friendsofphp/proxy-manager-lts": {
+        "version": "v1.0.5"
+    },
     "jd/csv-objects": {
         "version": "dev-master"
+    },
+    "laminas/laminas-code": {
+        "version": "4.3.0"
+    },
+    "laminas/laminas-eventmanager": {
+        "version": "3.3.1"
+    },
+    "laminas/laminas-zendframework-bridge": {
+        "version": "1.2.0"
+    },
+    "monolog/monolog": {
+        "version": "1.26.0"
     },
     "php": {
         "version": "7.4"
@@ -40,6 +90,9 @@
         "version": "v4.4.22"
     },
     "symfony/dependency-injection": {
+        "version": "v4.4.24"
+    },
+    "symfony/doctrine-bridge": {
         "version": "v4.4.24"
     },
     "symfony/dotenv": {
@@ -105,6 +158,27 @@
     "symfony/mime": {
         "version": "v4.4.24"
     },
+    "symfony/monolog-bridge": {
+        "version": "v4.4.22"
+    },
+    "symfony/monolog-bundle": {
+        "version": "3.7",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.7",
+            "ref": "329f6a5ef2e7aa033f802be833ef8d1268dd0848"
+        },
+        "files": [
+            "config/packages/dev/monolog.yaml",
+            "config/packages/prod/deprecations.yaml",
+            "config/packages/prod/monolog.yaml",
+            "config/packages/test/monolog.yaml"
+        ]
+    },
+    "symfony/orm-pack": {
+        "version": "v2.1.0"
+    },
     "symfony/polyfill-intl-idn": {
         "version": "v1.22.1"
     },
@@ -126,6 +200,9 @@
     "symfony/process": {
         "version": "v4.4.22"
     },
+    "symfony/proxy-manager-bridge": {
+        "version": "v4.4.24"
+    },
     "symfony/routing": {
         "version": "4.2",
         "recipe": {
@@ -142,6 +219,9 @@
     },
     "symfony/service-contracts": {
         "version": "v2.4.0"
+    },
+    "symfony/stopwatch": {
+        "version": "v4.4.20"
     },
     "symfony/var-dumper": {
         "version": "v4.4.22"
