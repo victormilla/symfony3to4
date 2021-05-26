@@ -169,6 +169,9 @@
     "incenteev/composer-parameter-handler": {
         "version": "v2.1.4"
     },
+    "jarnaiz/behat-junit-formatter": {
+        "version": "v1.3.2"
+    },
     "jd/cron": {
         "version": "dev-master"
     },
