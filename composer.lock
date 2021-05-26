@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea766f3b83012c091fae7814f553f0d3",
+    "content-hash": "94102b4cbacb3fb84587c7a41a4a1294",
     "packages": [
         {
             "name": "aircury/collection",
