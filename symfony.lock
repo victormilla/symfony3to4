@@ -139,6 +139,9 @@
     "guzzlehttp/psr7": {
         "version": "1.8.2"
     },
+    "incenteev/composer-parameter-handler": {
+        "version": "v2.1.4"
+    },
     "jd/csv-objects": {
         "version": "dev-master"
     },

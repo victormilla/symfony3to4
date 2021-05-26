@@ -35,6 +35,7 @@
     "doctrine/orm": "^2.9",
     "friendsofsymfony/rest-bundle": "^3.0",
     "guzzlehttp/guzzle": "^7.3",
+    "incenteev/composer-parameter-handler": "^2.1",
     "jd/csv-objects": "dev-master",
     "jms/serializer-bundle": "^3.9",
     "symfony/console": "4.4.*",
