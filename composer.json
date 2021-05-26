@@ -57,6 +57,7 @@
     "twig/twig": "^3.3"
   },
   "require-dev": {
+    "behat/behat": "^3.8"
   },
   "config": {
     "preferred-install": {
