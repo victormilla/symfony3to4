@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20471fb97590053ef4c295a266775011",
+    "content-hash": "7c49298426c62fe894d73b8b8d10edc5",
     "packages": [
+        {
+            "name": "aircury/collection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aircury/collection.git",
+                "reference": "44343a154ef1b61312963f97b49320f62859b4b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aircury/collection/zipball/44343a154ef1b61312963f97b49320f62859b4b6",
+                "reference": "44343a154ef1b61312963f97b49320f62859b4b6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aircury\\Collection\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jose Diaz",
+                    "email": "jose@aircury.com"
+                }
+            ],
+            "description": "Library to provide collection structures, to use instead of arrays",
+            "time": "2020-08-12T11:01:10+00:00"
+        },
         {
             "name": "arkschools/data-input-sheets",
             "version": "dev-master",
@@ -6097,6 +6136,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "aircury/collection": 20,
         "arkschools/data-input-sheets": 20,
         "arkschools/random": 20,
         "arkschools/systems-data-cacher": 20,

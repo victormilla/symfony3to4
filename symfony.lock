@@ -1,4 +1,7 @@
 {
+    "aircury/collection": {
+        "version": "dev-master"
+    },
     "arkschools/data-input-sheets": {
         "version": "1.0.x-dev"
     },

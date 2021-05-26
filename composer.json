@@ -25,6 +25,7 @@
     "php": "^7.4",
     "ext-ctype": "*",
     "ext-iconv": "*",
+    "aircury/collection": "dev-master",
     "arkschools/data-input-sheets": "dev-master",
     "arkschools/random": "dev-master",
     "arkschools/systems-data-cacher": "dev-master",
