@@ -17,6 +17,12 @@
     "behat/gherkin": {
         "version": "v4.8.0"
     },
+    "behat/mink": {
+        "version": "v1.8.1"
+    },
+    "behat/mink-browserkit-driver": {
+        "version": "v1.3.4"
+    },
     "behat/transliterator": {
         "version": "v1.3.0"
     },
@@ -298,6 +304,9 @@
     "swiftmailer/swiftmailer": {
         "version": "v6.2.7"
     },
+    "symfony/browser-kit": {
+        "version": "v4.4.24"
+    },
     "symfony/cache": {
         "version": "v4.4.24"
     },
@@ -320,6 +329,9 @@
             "config/bootstrap.php"
         ]
     },
+    "symfony/css-selector": {
+        "version": "v4.4.24"
+    },
     "symfony/debug": {
         "version": "v4.4.22"
     },
@@ -327,6 +339,9 @@
         "version": "v4.4.24"
     },
     "symfony/doctrine-bridge": {
+        "version": "v4.4.24"
+    },
+    "symfony/dom-crawler": {
         "version": "v4.4.24"
     },
     "symfony/dotenv": {
