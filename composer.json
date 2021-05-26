@@ -33,6 +33,7 @@
     "doctrine/doctrine-bundle": "^2.3",
     "doctrine/doctrine-migrations-bundle": "^3.1",
     "doctrine/orm": "^2.9",
+    "friendsofsymfony/rest-bundle": "^3.0",
     "jd/csv-objects": "dev-master",
     "jms/serializer-bundle": "^3.9",
     "symfony/console": "4.4.*",
