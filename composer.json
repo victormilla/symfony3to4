@@ -52,7 +52,8 @@
     "symfony/polyfill-apcu": "^1.22",
     "symfony/proxy-manager-bridge": "4.4.*",
     "symfony/swiftmailer-bundle": "^3.5",
-    "symfony/yaml": "4.4.*"
+    "symfony/yaml": "4.4.*",
+    "twig/twig": "^3.3"
   },
   "require-dev": {
   },
