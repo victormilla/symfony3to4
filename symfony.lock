@@ -380,6 +380,9 @@
     "symfony/options-resolver": {
         "version": "v4.4.20"
     },
+    "symfony/polyfill-apcu": {
+        "version": "v1.22.1"
+    },
     "symfony/polyfill-intl-idn": {
         "version": "v1.22.1"
     },
