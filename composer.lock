@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d187ad57f794a32c90e20b6fd26eeb1",
+    "content-hash": "2eafd654b31a79c639fa9b972d4a8c85",
     "packages": [
         {
             "name": "aircury/collection",
@@ -2207,6 +2207,37 @@
                 "parameters management"
             ],
             "time": "2020-03-17T21:10:00+00:00"
+        },
+        {
+            "name": "jd/cron",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/j-d/cron.git",
+                "reference": "97d52934e8c35773dc7f1347fac403b618a160fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/j-d/cron/zipball/97d52934e8c35773dc7f1347fac403b618a160fd",
+                "reference": "97d52934e8c35773dc7f1347fac403b618a160fd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cron\\": "src/Cron"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple cron task runner",
+            "abandoned": true,
+            "time": "2017-07-19T15:02:45+00:00"
         },
         {
             "name": "jd/csv-objects",
@@ -6464,6 +6495,7 @@
         "arkschools/data-input-sheets": 20,
         "arkschools/random": 20,
         "arkschools/systems-data-cacher": 20,
+        "jd/cron": 20,
         "jd/csv-objects": 20
     },
     "prefer-stable": false,

@@ -142,6 +142,9 @@
     "incenteev/composer-parameter-handler": {
         "version": "v2.1.4"
     },
+    "jd/cron": {
+        "version": "dev-master"
+    },
     "jd/csv-objects": {
         "version": "dev-master"
     },
