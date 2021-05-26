@@ -663,6 +663,12 @@
     "theseer/tokenizer": {
         "version": "1.2.0"
     },
+    "tonicforhealth/behat-parallel-scenario": {
+        "version": "v1.0.7.2"
+    },
+    "tonicforhealth/parallel-process-runner": {
+        "version": "v1.1.0"
+    },
     "twig/twig": {
         "version": "v3.3.2"
     },
