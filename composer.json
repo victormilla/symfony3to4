@@ -40,6 +40,7 @@
     "jd/csv-objects": "dev-master",
     "jms/serializer-bundle": "^3.9",
     "knplabs/knp-snappy-bundle": "^1.8",
+    "laminas/laminas-soap": "^2.9",
     "ocramius/proxy-manager": "^2.8",
     "php-amqplib/rabbitmq-bundle": "^2.7",
     "predis/predis": "^1.1",
