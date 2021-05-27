@@ -1,0 +1,8 @@
+light_saml_symfony_bridge:
+    own:
+        entity_id: 'https://ccr.arkschools.org'
+        credentials:
+            -
+                certificate: "%kernel.root_dir%/../ark/projects/ccr/app/Resources/saml.crt"
+                key:         "%kernel.root_dir%/../ark/projects/ccr/app/Resources/saml.pem"
+                password:    ~
